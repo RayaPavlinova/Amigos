@@ -4,16 +4,17 @@ use Tabacco;
 
 CREATE TABLE Clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    firstname VARCHAR(50),
-    lastname VARCHAR(50),
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
     email VARCHAR(100) UNIQUE,
-    password VARCHAR(100) UNIQUE
+    password VARCHAR(100) UNIQUE,
+    added_date timestamp NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE Employees (
+CREATE TABLE Admin (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    firstname VARCHAR(50),
-    lastname VARCHAR(50),
+    firstname VARCHAR(100),
+    lastname VARCHAR(100),
     email VARCHAR(100) UNIQUE,
     password VARCHAR(100) UNIQUE
 );
@@ -31,11 +32,25 @@ CREATE TABLE Products (
 
 CREATE TABLE Orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
+    order_no int(11) DEFAULT NULL,
     sendToClient INT,
     sendToProduct INT,
-    date DATE,
+    order_status varchar(100) DEFAULT NULL,
+    order_date timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+    payment_mode varchar(100) DEFAULT NULL,
+    payment_id int(11) DEFAULT NULL,
     FOREIGN KEY (sendToClient) REFERENCES Clients(id),
     FOREIGN KEY (sendToProduct) REFERENCES Products(id)
+);
+
+CREATE TABLE cart (
+    id bigint(20) NOT NULL AUTO_INCREMENT,
+    quantity INT,
+    total_price varchar(200) DEFAULT NULL,
+    client_id INT,
+    product_id INT,
+    FOREIGN KEY (client_id) REFERENCES Clients(id),
+    FOREIGN KEY (product_id) REFERENCES Products(id)
 );
 
 insert into Products (brand, category, name, description, price, min_price, quantity)
