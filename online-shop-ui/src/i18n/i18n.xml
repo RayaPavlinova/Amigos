@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<i18n>
+	<languages>
+		<language description="English" lang="ENG" />
+	</languages>
+	<key value="online_shop">
+		<val lang="ENG">TOBACCO SHOP</val>
+	</key>
+	<key value="no_rights_to_access">
+		<val lang="ENG">You don't have rights to access this page.</val>
+
+	</key>
+	<key value="price">
+		<val lang="ENG">Price: </val>
+
+	</key>
+	<key value="delete">
+		<val lang="ENG">Delete</val>
+
+	</key>
+	<key value="save">
+		<val lang="ENG">Save</val>
+
+	</key>
+	<key value="language">
+		<val lang="ENG">Language</val>
+	</key>
+	<key value="english">
+		<val lang="ENG">English</val>
+	</key>
+	<key value="russian">
+		<val lang="ENG">Russian</val>
+	</key>
+	<key value="romanian">
+		<val lang="ENG">Romanian</val>
+	</key>
+	<key value="cartitem_deleted_successfully">
+		<val lang="ENG">The cart item has been deleted successfully!</val>
+	</key>
+	<key value="cartitem_updated_successfully">
+		<val lang="ENG">The cart item has been updated successfully!</val>
+	</key>
+	<key value="create_account_message">
+		<val lang="ENG">Don't have an account? Sign Up</val>
+	</key>
+	<key value="user_registered_successfully">
+		<val lang="ENG">The user has been registered successfully!</val>
+	</key>
+	<key value="have_account_message">
+		<val lang="ENG">Have already an account? Log in</val>
+	</key>
+	<key value="sign_up">
+		<val lang="ENG">Sign Up</val>
+	</key>
+	<key value="sign_in">
+		<val lang="ENG">Sign In</val>
+	</key>
+	<key value="email">
+		<val lang="ENG">Email</val>
+	</key>
+	<key value="address">
+		<val lang="ENG">Address</val>
+	</key>
+	<key value="phone">
+		<val lang="ENG">Phone</val>
+	</key>
+	<key value="username">
+		<val lang="ENG">Username</val>
+	</key>
+	<key value="password">
+		<val lang="ENG">Password</val>
+	</key>
+	<key value="role">
+		<val lang="ENG">Role</val>
+	</key>
+	<key value="user">
+		<val lang="ENG">User</val>
+	</key>
+	<key value="seller">
+		<val lang="ENG">Seller</val>
+	</key>
+	<key value="my_products">
+		<val lang="ENG">My products</val>
+	</key>
+	<key value="no_category">
+		<val lang="ENG">No Category</val>
+	</key>
+	<key value="user_updated_successfully">
+		<val lang="ENG">The user information has been successfully updated!</val>
+	</key>
+	<key value="no_products_found">
+		<val lang="ENG">No products found</val>
+	</key>
+	<key value="product_added_successfully">
+		<val lang="ENG">The product has been added successfully!</val>
+	</key>
+	<key value="product_deleted_successfully">
+		<val lang="ENG">The product has been deleted successfully!</val>
+	</key>
+	<key value="product_added_to_cart_successfully">
+		<val lang="ENG">The product has been successfully added to the cart!</val>
+	</key>
+	<key value="product_updated_successfully">
+		<val lang="ENG">The product has been updated successfully!</val>
+	</key>
+	<key value="name">
+		<val lang="ENG">Name</val>
+	</key>
+	<key value="description">
+		<val lang="ENG">Description</val>
+	</key>
+	<key value="currency">
+		<val lang="ENG">Currency</val>
+	</key>
+	<key value="categories">
+		<val lang="ENG">Categories</val>
+	</key>
+	<key value="add">
+		<val lang="ENG">Add</val>
+	</key>
+	<key value="select_currency">
+		<val lang="ENG">Select your currency</val>
+	</key>
+	<key value="update">
+		<val lang="ENG">Update</val>
+	</key>
+	<key value="open_settings">
+		<val lang="ENG">Open settings</val>
+	</key>
+	<key value="profile">
+		<val lang="ENG">Profile</val>
+	</key>
+	<key value="search">
+		<val lang="ENG">Search</val>
+	</key>
+	<key value="my_cart">
+		<val lang="ENG">My cart</val>
+	</key>
+	<key value="my_profile">
+		<val lang="ENG">My profile</val>
+	</key>
+	<key value="my_products">
+		<val lang="ENG">My products</val>
+	</key>
+	<key value="add_product">
+		<val lang="ENG">Add product</val>
+	</key>
+	<key value="update_product">
+		<val lang="ENG">Update product</val>
+	</key>
+	<key value="add_to_cart">
+		<val lang="ENG">Add to cart</val>
+	</key>
+	<key value="logout">
+		<val lang="ENG">Logout</val>
+		<val lang="RU">Выйти</val>
+	</key>
+	<key value="username_taken">
+		<val lang="ENG">Username is taken!</val>
+		<val lang="RU">Имя пользователя занято!</val>
+	</key>
+	<key value="username_not_found">
+		<val lang="ENG">Username is not found!</val>
+	</key>
+	<key value="access_denied">
+		<val lang="ENG">Access denied.</val>
+	</key>
+	<key value="username_is_required">
+		<val lang="ENG">Username is required.</val>
+	</key>
+	<key value="username_too_long">
+		<val lang="ENG">Username is too long.</val>
+	</key>
+	<key value="username_too_short">
+		<val lang="ENG">Username is too short.</val>
+	</key>
+	<key value="password_is_required">
+		<val lang="ENG">Password is required.</val>
+	</key>
+	<key value="password_too_short">
+		<val lang="ENG">Password is too short.</val>
+	</key>
+	<key value="password_too_long">
+		<val lang="ENG">Password is too long.</val>
+	</key>
+	<key value="email_is_required">
+		<val lang="ENG">Email is required.</val>
+		<val lang="RU">Электронная почта обязательно.</val>
+	</key>
+	<key value="email_is_invalid">
+		<val lang="ENG">Email is invalid.</val>
+	</key>
+	<key value="email_too_short">
+		<val lang="ENG">Email is too short.</val>
+	</key>
+	<key value="email_too_long">
+		<val lang="ENG">Email is too long.</val>
+	</key>
+	<key value="name_is_required">
+		<val lang="ENG">Name is required.</val>
+	</key>
+	<key value="name_too_long">
+		<val lang="ENG">Name is too long.</val>
+	</key>
+	<key value="name_too_short">
+		<val lang="ENG">Name is too short.</val>
+	</key>
+	<key value="price_is_required">
+		<val lang="ENG">Price is required.</val>
+	</key>
+	<key value="price_value_error">
+		<val lang="ENG">Price should be greater than or equal to 0.01.</val>
+	</key>
+	<key value="quantity_is_required">
+		<val lang="ENG">Quantity is required.</val>
+	</key>
+	<key value="quantity_value_error">
+		<val lang="ENG">Quanity should be greater than or equal to 1.</val>
+	</key>
+	<key value="total">
+		<val lang="ENG">Total</val>
+	</key>
+	<key value="products_price">
+		<val lang="ENG">Products price</val>
+	</key>
+	<key value="delivery_price">
+		<val lang="ENG">Delivery price</val>
+	</key>
+	<key value="discount">
+		<val lang="ENG">Discount (%)</val>
+	</key>
+	<key value="cash">
+		<val lang="ENG">Cash</val>
+	</key>
+	<key value="card">
+		<val lang="ENG">Card</val>
+	</key>
+	<key value="crypto">
+		<val lang="ENG">Crypto</val>
+	</key>
+</i18n>
+	
